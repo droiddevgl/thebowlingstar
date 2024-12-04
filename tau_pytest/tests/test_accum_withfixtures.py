@@ -41,3 +41,9 @@ def test_accumulator_add_twice(accum):
 #         accum.count = 10
 
 
+@pytest.mark.accumulator
+def test_for_Jessica(accum):
+    accum.add()
+    accum.add()
+    accum.add()
+    assert accum.count == 3
