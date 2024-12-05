@@ -61,3 +61,12 @@ class Accumulator:
 
     def add(self, more=1) -> None:
         self._count += more
+
+    def multi(self, more=1) -> None:
+        self._count *= more
+
+
+
+
+
+
