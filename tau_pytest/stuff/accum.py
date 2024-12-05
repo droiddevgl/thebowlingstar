@@ -63,3 +63,11 @@ class Accumulator:
         self._count += more
 
 
+    def add4(self, more=4) -> None:
+        self._count = more + 4
+
+    def addlisa7(self, more=7) -> None:
+        self._count = more + 7
+
+    def addanotherforlisa8(self, more=8) -> None:
+        self._count = more + 8
