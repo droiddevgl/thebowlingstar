@@ -56,3 +56,20 @@ def test_for_Jessica_more(accum):
     accum.add()
     accum.add()
     assert accum.count == 5
+
+
+@pytest.mark.accumulator
+def test_for_Jessica_advanced(accum):
+    accum.add()
+    accum.add()
+    accum.add()
+    accum.add()
+    accum.add()
+    accum.add()
+    accum.add()
+    accum.add()
+    assert accum.count == 8
+
+
+
+
