@@ -74,3 +74,12 @@ class Accumulator:
 
     def addforlisa9(self, more=9) -> None:
         self._count = more + 9
+
+    def addtestforJessica10(self, more=20) -> None:
+        self._count = more + 20
+
+
+
+
+
+
